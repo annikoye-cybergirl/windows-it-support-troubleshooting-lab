@@ -107,26 +107,26 @@ IP Configuration
 
 The workstation's network configuration was reviewed using ipconfig.
 
-Screenshot: IP configuration and network details.
+![IP configuration](../../screenshots/incident-01/01-ipconfig-baseline.png)
 
 IP Connectivity Test
 
 The workstation successfully reached the external IP address 8.8.8.8.
 
-Screenshot: Successful ping 8.8.8.8 test.
+![Successful IP connectivity test](../../screenshots/incident-01/02-ip-connectivity-success.png)
 
 DNS Resolution Failure
 
 The workstation initially failed to resolve google.com.
 
-Screenshot: DNS resolution failure showing:
+![DNS resolution failure](../../screenshots/incident-01/03-dns-resolution-failure.png)
 
 Ping request could not find host google.com
 DNS Resolution Restored
 
 After correcting the DNS configuration, google.com resolved successfully.
 
-Screenshot: Successful ping google.com after the fix.
+![DNS resolution restored](../../screenshots/incident-01/04-dns-resolution-restored.png)
 
 10. Troubleshooting Methodology
 
